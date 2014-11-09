@@ -1,0 +1,37 @@
+\documentclass{article}
+\author{Marco Meyer}
+\title{CS 102 \LaTeX  \"Ubung 5}
+\date{25. Oktober 2015}
+\begin{document}
+
+\maketitle
+\section{Dies ist der erste Abschnitt}
+Hier k\"onnte auch anderer Text stehen, zum Beispiel eine Einleitung.
+
+\section{Tabelle}
+Meine unwichtigsten Daten finden Sie in folgender Tabelle 1.\\
+
+\begin{tabular}[c]{c|c|c|c}
+
+ & Punkte erhalten & Punkte m\"oglich & \%\\
+\hline
+Aufgabe 1 & 2 & 4 &0.5 \\
+Aufgabe 2 & 3 & 3 &1\\
+Aufgabe 3 & 3 & 3 &1 \\
+
+\end{tabular} \\
+\begin{center}
+Tabelle 1: Diese Tabelle enthält jetzt jedoch trotzdem dieselben Daten.
+\end{center} 
+
+\section{Formeln}
+\subsection{Pythagoras}
+Der Satz des Pythagoras errechnet sich wie folgt: $ a^{2}+b^{2}=c^{2} $. Daraus k\"onnen wir die L\"ange der Hypothenuse wie folgt bestimmen: $ c=\sqrt{a^{2}+b^{2}} $.
+\subsection{Summen}
+Wir k\"onnen auch die Formel f\"ur eine Summe angeben:\\ 
+\begin{equation}
+	s=\sum_{i=1}^n i=\frac{n*(n+1)}{2}
+	\label{eq:formel}
+\end{equation} 
+
+\end{document} 
