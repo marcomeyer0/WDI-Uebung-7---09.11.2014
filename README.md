@@ -8,7 +8,7 @@ WDI-Uebung-7---09.11.2014
  + Lektion Einführung in GitHub
 
 |Tabelle   |Spalte Eins      |Spalte Zwei       |
-|:---------|:----------------| ----------------:|
+|:--------:|:----------------| ----------------:|
 |Reihe Eins|Linksbündig Oben |Rechtsbündig Oben |
 |Reihe Zwei|Linksbündig Mitte|Rechtsbündig Mitte|
 |Reihe Drei|Linksbündig Unten|Rechtsbündig Unten|
